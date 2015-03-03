@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="content">
+    <div class="menu menu_theme_islands menu_size_xl  menu__control i-bem" data-bem="{&quot;menu&quot;:{}}" role="menu" tabindex="0">
+    <h2>{{ page.title }}</h2>
+  {% for post in site.posts %}
+        <div class="menu-item  menu-item_theme_islands i-bem" data-bem="{&quot;menu-item&quot;:{}}" role="menuitem">
+            
+                <div><a class="link link__control i-bem" data-bem="{&quot;link&quot;:{}}" href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date: "%b %d, %Y" }}</div>
+        </div>
+  {% endfor %}
+    </div>
+</div>
