@@ -6,8 +6,11 @@ layout: default
     <h2>{{ page.title }}</h2>
   {% for post in site.posts %}
         <div class="menu-item  menu-item_theme_islands menu-item_type_link i-bem" data-bem="{&quot;menu-item&quot;:{}}" role="menuitem">
-            
-                <div><a class="link link__control link_theme_islands link_size_xl i-bem" data-bem="{&quot;link&quot;:{}}" href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date: "%b %d, %Y" }}</div>
+            <div>
+            {% if post.categories contains 'classifields'  %}
+                <span class="sale">На продажу</span> &mdash;
+            {% endif %}
+                <a class="link link__control link_theme_islands link_size_xl i-bem" data-bem="{&quot;link&quot;:{}}" href="{{ post.url }}">{{ post.title }}</a> &mdash; {{ post.date | date: "%b %d, %Y" }}</div>
         </div>
   {% endfor %}
     </div>

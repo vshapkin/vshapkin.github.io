@@ -350,7 +350,7 @@ html {
   min-height: 100%;
 }
 .page_theme_islands {
-  font: 13px/15px Arial, Helvetica, sans-serif;
+  font: 14px/18px Arial, Helvetica, sans-serif;
   min-height: 100%;
   margin: 0;
   color: #000;
@@ -360,4 +360,9 @@ html {
 
 .content img {
     max-width: 100%;
+}
+
+span.sale {
+    font-weight: bold;
+    color: red;
 }
