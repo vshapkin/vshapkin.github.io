@@ -1,5 +1,5 @@
 ---
-title: home page
+title: Начало
 layout: list
 ---
 
