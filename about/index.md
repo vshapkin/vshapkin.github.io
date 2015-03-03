@@ -5,4 +5,4 @@ layout: page
 
 ## Виктор А. Шапкин
 
-![портрет Шапкина](/images/portrait.jpg)
+![портрет автора](/images/portrait.jpg)
