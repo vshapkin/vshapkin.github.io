@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Рупоры Часть 1 - первый опыт
-thumb: '/images/first-horn/Vnut_polosti_1.jpg'
+thumb: '/images/first-horn/Szadi_s_dinamikom.jpg'
 ---
 
 Первый опыт изготовления наборного горна
